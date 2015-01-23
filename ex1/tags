@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+binary_classifier_accuracy	binary_classifier_accuracy.m	/^function accuracy=binary_classifier_accuracy(theta, X,y)$/;"	f
+binary_classifier_accuracy	multi_classifier_accuracy.m	/^function accuracy=binary_classifier_accuracy(theta, X,y)$/;"	f
+ex1_load_mnist	ex1_load_mnist.m	/^function [train, test] = ex1_load_mnist(binary_digits)$/;"	f
+grad_check	grad_check.m	/^function average_error = grad_check(fun, theta0, num_checks, varargin)$/;"	f
+linear_regression	linear_regression.m	/^function [f,g] = linear_regression(theta, X,y)$/;"	f
+linear_regression_vec	linear_regression_vec.m	/^function [f,g] = linear_regression_vec(theta, X,y)$/;"	f
+logistic_regression	logistic_regression.m	/^function [f,g] = logistic_regression(theta, X,y)$/;"	f
+logistic_regression_vec	logistic_regression_vec.m	/^function [f,g] = logistic_regression_vec(theta, X,y)$/;"	f
+sigmoid	sigmoid.m	/^function h=sigmoid(a)$/;"	f
+softmax_regression	softmax_regression_vec.m	/^function [f,g] = softmax_regression(theta, X,y)$/;"	f

@@ -31,8 +31,8 @@ train.y = data(end,1:400);
 test.X = data(1:end-1,401:end);
 test.y = data(end,401:end);
 
-m=size(train.X,2);
-n=size(train.X,1);
+m=size(train.X,2)
+n=size(train.X,1)
 
 % Initialize the coefficient vector theta to random values.
 theta = rand(n,1);
@@ -43,7 +43,7 @@ theta = rand(n,1);
 % in linear_regression.m
 %
 tic;
-options = struct('MaxIter', 200);
+options = struct('MaxIter', 200, 'useMex', 0);
 theta = minFunc(@linear_regression, theta, options, train.X, train.y);
 fprintf('Optimization took %f seconds.\n', toc);
 
