@@ -20,9 +20,9 @@ function average_error = grad_check(fun, theta0, num_checks, varargin)
     error = abs(g(j) - g_est);
 
     fprintf('% 5d  % 6d % 15g % 15f % 15f % 15f\n', ...
-            i,j,error,g(j),g_est,f);
+            i,j,error,g_est,g(j),f);
 
     sum_error = sum_error + error;
   end
 
-  average=sum_error/num_checks;
+  average_error=sum_error/num_checks;

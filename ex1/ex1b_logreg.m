@@ -41,6 +41,10 @@ theta = rand(n,1)*0.001;
 %
 % Uncomment the lines below to run your vectorized code.
 theta = rand(n,1)*0.001;
+
+% gradient checking
+%average_error = grad_check(@logistic_regression_vec, theta, 10, train.X, train.y)
+
 tic;
 theta=minFunc(@logistic_regression_vec, theta, options, train.X, train.y);
 fprintf('Optimization took %f seconds.\n', toc);
